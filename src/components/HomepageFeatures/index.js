@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Modular',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        qkd-net was designed from the ground up using SOLID principles
+        to ensure it can be customized for different QKD hardware vendors.
       </>
     ),
   },
@@ -18,18 +18,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        qkd-net lets you focus on using QKD-generated keys in your applications without worrying how they go there.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Java',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Open-source & written in Java using Netty & Spring.
       </>
     ),
   },
