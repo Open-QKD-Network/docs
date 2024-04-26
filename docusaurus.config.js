@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Open-QKD-Network/docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -70,6 +70,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: 'https://www.openqkdnetwork.net/',
+            position: 'left',
+            label: 'Project Home',
           },
           {
             href: 'https://github.com/Open-QKD-Network/qkd-net',
